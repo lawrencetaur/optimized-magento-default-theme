@@ -4,6 +4,8 @@
 	<default>
 		<reference name="head">
 			<!-- Removing items set in the page.xml we don't need -->
+			<action method="removeItem"><type>skin_js</type><name>js/ie6.js</name><if>lt IE 7</if></action>
+			<action method="removeItem"><type>js</type><name>lib/ds-sleight.js</name><params/><if>lt IE 7</if></action>
 			<action method="removeItem"><type>skin_css</type><name>css/styles.css</name></action>
 			<action method="removeItem"><type>skin_css</type><name>css/styles-ie.css</name><params/><if>lt IE 8</if></action>
 			<action method="removeItem"><type>skin_css</type><name>css/widgets.css</name></action>
@@ -11,9 +13,20 @@
 
 			<!-- Adding items -->
 			<action method="addCss"><stylesheet>css/styles.min.css</stylesheet></action>
-			<action method="addItem"><type>skin_css</type><name>css/styles-ie.css</name><params/><if>lt IE 8</if></action>
 			<action method="addCss"><stylesheet>css/styles.mhtml.min.css</stylesheet><params/><if>lt IE 7</if></action>
 			<action method="addCss"><stylesheet>css/styles.b64.min.css</stylesheet><params/><if>gt IE 7</if></action>
+
+			<!-- Adding items from boilerplate -->
+			<action method="addItem"><type>skin_js</type><name>js/selectivizr.min.js</name><params/><if>lt IE 9</if></action>
+			<action method="addItem"><type>skin_js</type><name>js/modernizr.min.js</name><params/><if>lt IE 9</if></action>
+
+			<!-- Formalize Js -->
+			<action method="addItem"><type>skin_js</type><name>js/prototype.formalize.min.js</name><params/></action>
+			<!-- Formalize CSS -->
+			<action method="addCss"><stylesheet>css/formalize.css</stylesheet></action>
+
+			<!-- Enable jQuery only in no conflict mode -->
+			<action method="addItem"><type>skin_js</type><name>js/jquery-1.6.2-no-conflict.min.js</name><params/></action>
 		</reference>
 	</default>
 
