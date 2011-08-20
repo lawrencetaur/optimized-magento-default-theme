@@ -1,0 +1,17 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+
+
+/* THANKS */
+  This Magento theme package shamelessly uses HTML5 boilerplate by Paul Irish and CSS3PIE by the guys from 327 Creative LLC:
+  http://html5boilerplate.com/
+  http://paulirish.com/
+  http://327creative.com/
+  
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, Prototype, Selectivizr, Formalize
+  Software: Magento
