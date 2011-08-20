@@ -1,4 +1,7 @@
-#  stripped/optimized magento default theme (http://http://www.magentocommerce.com/)
+#  stripped/optimized magento default theme (http://www.magentocommerce.com/)
+
+This repository contains adjustments for a vanilla Magento CE 1.6.0 install.
+Since the default theme of Magento is a fallback from all other themes, it makes sense to optimize all frontend files for best speed performance.
 
 ## Changelog:
 
