@@ -26,7 +26,7 @@
 			<action method="addCss"><stylesheet>css/formalize.css</stylesheet></action>
 
 			<!-- Enable jQuery only in no conflict mode -->
-			<action method="addItem"><type>skin_js</type><name>js/jquery-1.6.2-no-conflict.min.js</name><params/></action>
+			<action method="addItem"><type>skin_js</type><name>js/jquery-1.6.4-no-conflict.min.js</name><params/></action>
 		</reference>
 	</default>
 

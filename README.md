@@ -1,6 +1,6 @@
 #  stripped/optimized magento default theme (http://www.magentocommerce.com/)
 
-This repository contains adjustments for a vanilla Magento CE 1.6.0 install.
+This repository contains adjustments for a vanilla Magento CE 1.6.1 install.
 Since the default theme of Magento is a fallback from all other themes, it makes sense to optimize all frontend files for best speed performance.
 
 ## Features:
@@ -10,6 +10,10 @@ Since the default theme of Magento is a fallback from all other themes, it makes
 * Normalized Form Styles by Formalize (http://formalize.me/)
 
 ## Changelog:
+
+### v.0.2 : October 29th, 2011
+* upgraded to Magento CE 1.6.1
+* upgraded to jquery 1.6.4
 
 ### v.0.1 : August 20th, 2011
 * optimized all PNGs with http://www.smushit.com/ysmush.it/
